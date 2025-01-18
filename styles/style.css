@@ -197,6 +197,60 @@
     margin-left: 5px;
 }
 
+/* feature section styles */
+.feature-section{
+    max-width: 1110px;
+    margin: 0 auto 100px;
+    gap: 95px;
+    font-family: "Poppins", serif;
+}
+.feature-title{
+    font-size: 2.3rem;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: var(--dark-1);
+}
+.feature-description{
+    width: 500px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--dark-3);
+    margin-bottom: 16px;
+}
+.feature-content > button > i{
+    margin-left: 8px;
+}
+
+/* footer styles */
+.footer-section{
+    background: var(--dark-1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    font-family: "Poppins";
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.copy-right{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: 5px 0;
+    color: var(--dark-3);
+}
+.footer-icon i{
+    margin-right: 16px;
+    cursor: pointer;
+    background: rgba(255,255,255,0.15);
+    padding: 10px;
+    border-radius: 50%;
+}
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
   .header {
@@ -259,7 +313,29 @@
 }
 .container-btn{
     margin-right: 20px;
+    margin-bottom: 50px;
 }
+.feature-section{
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.feature-title{
+    width: 311px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+.feature-description{
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.feature-btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
 }
 
 
@@ -318,5 +394,28 @@
     }
     .container-btn{
         margin-right: 30px;
+        margin-bottom: 50px;
+    }
+    .feature-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .feature-img{
+        width: 80%;
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    .feature-title{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .feature-description{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .feature-btn{
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
