@@ -102,8 +102,8 @@
   height: 475px;
   background-image: url(../images/Circle\ design.svg);
   background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,146 +111,149 @@
 }
 
 /* companies container style */
-.companies-container{
-    max-width: 1110px;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    justify-items: center;
-    margin-top: 70px;
-    margin-bottom: 100px;
+.companies-container {
+  max-width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
 }
 
 /* card section styles */
-.card-section{
-    max-width: 1050px;
-    margin: 0 auto;
+.card-section {
+  max-width: 1050px;
+  margin: 0 auto;
 }
-.card-section-title{
-    font-size: 1.75rem;
-    font-weight: 600;
-    text-align: center;
-    color: var(--dark-2);
-    margin-bottom: 30px;
+.card-section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--dark-2);
+  margin-bottom: 30px;
 }
-.card-section-title, .product-name{
-    font-family: "Poppins", serif;
+.card-section-title,
+.product-name {
+  font-family: "Poppins", serif;
 }
 /* only card style */
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items: center;
-    gap: 30px;
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 30px;
 }
-.card{
-    width: 330px;
-    padding: 15px;
-    background: rgb(255, 255, 255);
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
+.card {
+  width: 330px;
+  padding: 15px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
 }
-.product-name{
-    font-size: 1.75rem;
-    font-weight: 500;
-    margin-top: 16px;
-    color: var(--dark-1);
-    margin-bottom: 6px;
+.product-name {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-top: 16px;
+  color: var(--dark-1);
+  margin-bottom: 6px;
 }
-.product-price,.rating-number,.product-details{
-    font-family: "Inter",serif;
+.product-price,
+.rating-number,
+.product-details {
+  font-family: "Inter", serif;
 }
-.product-price{
-    color: rgba(0, 0, 0, 0.87);
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 8px;
+.product-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 8px;
 }
-.rating-star > i{
-    font-size: 12px;
-    color: orange;
+.rating-star > i {
+  font-size: 12px;
+  color: orange;
 }
-.rating-number{
-    font-size: 14px;
-    margin-left: 8px;
-    font-weight: 700;
-    color: var(--dark-3);
+.rating-number {
+  font-size: 14px;
+  margin-left: 8px;
+  font-weight: 700;
+  color: var(--dark-3);
 }
-.product-details{
-    width: 195px;
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--dark-3);
-    margin-top: 10px;
-    line-height: 24px;
+.product-details {
+  width: 195px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--dark-3);
+  margin-top: 10px;
+  line-height: 24px;
 }
-.container-btn{
-    text-align: right;
-    margin-top: 50px;
-    margin-bottom: 100px;
+.container-btn {
+  text-align: right;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
-.see-more-btn{
-    color: var(--btn-bg);
-    font-weight: 700;
-    font-family: "Poppins";
-    text-decoration: none;
+.see-more-btn {
+  color: var(--btn-bg);
+  font-weight: 700;
+  font-family: "Poppins";
+  text-decoration: none;
 }
-.see-more-btn i{
-    margin-left: 5px;
+.see-more-btn i {
+  margin-left: 5px;
 }
 
 /* feature section styles */
-.feature-section{
-    max-width: 1110px;
-    margin: 0 auto 100px;
-    gap: 95px;
-    font-family: "Poppins", serif;
+.feature-section {
+  max-width: 1110px;
+  margin: 0 auto 100px;
+  gap: 95px;
+  font-family: "Poppins", serif;
 }
-.feature-title{
-    font-size: 2.3rem;
-    margin-bottom: 16px;
-    font-weight: 700;
-    color: var(--dark-1);
+.feature-title {
+  font-size: 2.3rem;
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: var(--dark-1);
 }
-.feature-description{
-    width: 500px;
-    font-weight: 700;
-    line-height: 28px;
-    color: var(--dark-3);
-    margin-bottom: 16px;
+.feature-description {
+  width: 500px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--dark-3);
+  margin-bottom: 16px;
 }
-.feature-content > button > i{
-    margin-left: 8px;
+.feature-content > button > i {
+  margin-left: 8px;
 }
 
 /* footer styles */
-.footer-section{
-    background: var(--dark-1);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
-    font-family: "Poppins";
+.footer-section {
+  background: var(--dark-1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-family: "Poppins";
 }
-.footer-title{
-    font-size: 1.5rem;
-    font-weight: 700;
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
-.copy-right{
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 500;
-    text-align: center;
-    margin: 5px 0;
-    color: var(--dark-3);
+.copy-right {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin: 5px 0;
+  color: var(--dark-3);
 }
-.footer-icon i{
-    margin-right: 16px;
-    cursor: pointer;
-    background: rgba(255,255,255,0.15);
-    padding: 10px;
-    border-radius: 50%;
+.footer-icon i {
+  margin-right: 16px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  border-radius: 50%;
 }
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
@@ -280,7 +283,7 @@
   .hero-img {
     width: 257px;
     height: 257px;
-    
+
     margin-top: 22px;
     margin-bottom: 14px;
   }
@@ -288,135 +291,131 @@
     width: 200px;
     height: 190px;
   }
-  .hero-title{
+  .hero-title {
     font-size: 1.75rem;
   }
-  .hero-description{
+  .hero-description {
     font-size: 14px;
     font-weight: 500;
   }
   /* companies */
-  .companies-container{
+  .companies-container {
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     gap: 10px;
-}
-.companies-container img{
+  }
+  .companies-container img {
     height: 15px;
-}
-/* card */
-.card-section-title{
+  }
+  /* card */
+  .card-section-title {
     font-size: 1.5rem;
-}
-.card-container{
-    grid-template-columns: repeat(1,1fr);
+  }
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
     gap: 30px;
-}
-.container-btn{
+  }
+  .container-btn {
     margin-right: 20px;
     margin-bottom: 50px;
-}
-.feature-section{
+  }
+  .feature-section {
     flex-direction: column-reverse;
     gap: 20px;
-}
-.feature-title{
+  }
+  .feature-title {
     width: 311px;
     text-align: center;
     font-size: 1.5rem;
     margin: 0 auto;
-}
-.feature-description{
-    width: 330px;
-    margin: 0 auto;
+  }
+  .feature-description {
+    margin-top: 15px;
     text-align: center;
     margin-bottom: 16px;
-}
-.feature-btn{
+  }
+  .feature-btn {
     text-align: center;
     margin-bottom: 20px;
+  }
 }
- 
-}
-
-
 /* responsive for medium devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .header {
-        width: 100%;
-      }
-      /* I use display none property to nav-items for responsiveness. this will hide those content that I don't need in small devices*/
-      .none {
-        display: none;
-      }
-      .nav-menu {
-        display: block;
-      }
-      .navbar {
-        margin: 35px 16px 0;
-      }
-      #cart {
-        font-size: 28px;
-      }
-      .nav-logo {
-        font-size: 1.25rem;
-      }
-      .hero-section {
-        flex-direction: column-reverse;
-        text-align: center;
-      }
-      .hero-img {
-        width: 350px;
-        height: 350px;
-        margin-top: 44px;
-        margin-bottom: 28px;
-      }
-      .hero-img img {
-        width: 300px;
-        height: 290px;
-      }
-      .hero-title{
-        font-size: 2.5rem;
-      }
-      .hero-description{
-        font-size: 16px;
-        font-weight: 600;
-      }
-      .companies-container{
-        grid-template-columns: repeat(5, 1fr);
-        justify-items: center;
-        gap: 20px;
-    }
-    .companies-container img{
-        height: 20px;
-    }
-    .card-container{
-        grid-template-columns: repeat(2,1fr);
-    }
-    .container-btn{
-        margin-right: 30px;
-        margin-bottom: 50px;
-    }
-    .feature-section{
-        flex-direction: column-reverse;
-        gap: 20px;
-    }
-    .feature-img{
-        width: 80%;
-    }
-    .feature-img img{
-        width: 100%;
-    }
-    .feature-title{
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    .feature-description{
-        text-align: center;
-        margin-bottom: 16px;
-    }
-    .feature-btn{
-        text-align: center;
-        margin-bottom: 20px;
-    }
+  .header {
+    width: 100%;
+  }
+  /* I use display none property to nav-items for responsiveness. this will hide those content that I don't need in small devices*/
+  .none {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
+  .navbar {
+    margin: 35px 16px 0;
+  }
+  #cart {
+    font-size: 28px;
+  }
+  .nav-logo {
+    font-size: 1.25rem;
+  }
+  .hero-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero-img {
+    width: 350px;
+    height: 350px;
+    margin-top: 44px;
+    margin-bottom: 28px;
+  }
+  .hero-img img {
+    width: 300px;
+    height: 290px;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-description {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .companies-container {
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    gap: 20px;
+  }
+  .companies-container img {
+    height: 20px;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container-btn {
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+  .feature-section {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .feature-img {
+    width: 80%;
+  }
+  .feature-img img {
+    width: 100%;
+  }
+  .feature-title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .feature-description {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .feature-btn {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
