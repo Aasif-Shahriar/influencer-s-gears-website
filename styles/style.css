@@ -308,6 +308,9 @@
     height: 15px;
   }
   /* card */
+  .card-section{
+    width: 100%;
+  }
   .card-section-title {
     font-size: 1.5rem;
   }
@@ -330,6 +333,8 @@
     margin: 0 auto;
   }
   .feature-description {
+    width: 400px;
+    font-size: 14px;
     margin-top: 15px;
     text-align: center;
     margin-bottom: 16px;
