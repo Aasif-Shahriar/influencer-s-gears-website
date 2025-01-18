@@ -1,52 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Influencer's Gears</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header poppins">
-        <nav class="navbar flex">
-            <div class="nav-menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <h3 class="nav-logo">Influencer products</h3>
-            <ul class="nav-links flex">
-                <li class="nav-item"><a href="" class="nav-link none">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link none">Sign up</a></li>
-                <li class="nav-item"><a href="" class="nav-link none">Log in</a></li>
-                <li class="nav-item"><a href="" class="nav-link none">Products</a></li>
-                <li class="nav-item"><a href="" id="search" class="nav-link none"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li class="nav-item"><a href="" id="cart" class="nav-link"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
-            </ul>
-        </nav>
-        <div class="hero-section flex">
-            <div class="hero-content">
-                <h3 class="hero-title">Start your Journey as 
-                    Influencer</h3>
-                <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
-                <button class="btn-primary hero-btn">Preebook now <i class="fa-solid fa-arrow-right-long"></i></button>
-            </div>
-            <div class="hero-img">
-                <img src="images/main-camera.png" alt="">
-            </div>
+      <nav class="navbar flex">
+        <div class="nav-menu">
+          <i class="fa-solid fa-bars"></i>
         </div>
-        <div class="companies-container">
-            <img src="logos/Alibaba.svg" alt="">
-            <img src="logos/Amazon.svg" alt="">
-            <img src="logos/Daraz.pk Logo.svg" alt="">
-            <img src="logos/Ebay.svg" alt="">
-            <img src="logos/Rakuten.svg" alt="">
-            <img src="logos/Walmart.svg" alt="">
-            <img src="logos/Target.svg" alt="">
+        <h3 class="nav-logo">Influencer products</h3>
+        <ul class="nav-links flex">
+          <li class="nav-item"><a href="" class="nav-link none">Home</a></li>
+          <li class="nav-item"><a href="" class="nav-link none">Sign up</a></li>
+          <li class="nav-item"><a href="" class="nav-link none">Log in</a></li>
+          <li class="nav-item">
+            <a href="" class="nav-link none">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="" id="search" class="nav-link none"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="" id="cart" class="nav-link"
+              ><i class="fa-solid fa-cart-arrow-down"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-section flex">
+        <div class="hero-content">
+          <h3 class="hero-title">Start your Journey as Influencer</h3>
+          <p class="hero-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
+            vestibulum sed scelerisque eros. Lectus faucibus.
+          </p>
+          <button class="btn-primary hero-btn">
+            Preebook now <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
         </div>
+        <div class="hero-img">
+          <img src="images/main-camera.png" alt="" />
+        </div>
+      </div>
+      <div class="companies-container">
+        <img src="logos/Alibaba.svg" alt="" />
+        <img src="logos/Amazon.svg" alt="" />
+        <img src="logos/Daraz.pk Logo.svg" alt="" />
+        <img src="logos/Ebay.svg" alt="" />
+        <img src="logos/Rakuten.svg" alt="" />
+        <img src="logos/Walmart.svg" alt="" />
+        <img src="logos/Target.svg" alt="" />
+      </div>
     </header>
     <main>
-
+      <section class="card-section">
+        <h3 class="card-section-title">Popular Collection</h3>
+        <div class="card-container">
+          <div class="card">
+            <img src="images/tripod.png" alt="" />
+            <h3 class="product-name">Flex Tripod</h3>
+            <h4 class="product-price">$50.48</h4>
+            <div class="product-rating flex">
+              <div class="rating-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="rating-number">4.99</p>
+            </div>
+            <p class="product-details">
+              Worldwide shifting <br> available <br> Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/mic.png" alt="" />
+            <h3 class="product-name">Microphone</h3>
+            <h4 class="product-price">$120.25</h4>
+            <div class="product-rating flex">
+              <div class="rating-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="rating-number">4.99</p>
+            </div>
+            <p class="product-details">
+              Worldwide shifting <br> available <br> Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/airpod.png" alt="" />
+            <h3 class="product-name">Airbuds</h3>
+            <h4 class="product-price">$100.00</h4>
+            <div class="product-rating flex">
+              <div class="rating-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="rating-number">4.99</p>
+            </div>
+            <p class="product-details">
+              Worldwide shifting <br> available <br> Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/drone.png" alt="" />
+            <h3 class="product-name">Drone</h3>
+            <h4 class="product-price">$980.25</h4>
+            <div class="product-rating flex">
+              <div class="rating-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="rating-number">4.99</p>
+            </div>
+            <p class="product-details">
+              Worldwide shifting <br> available <br> Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/lights.png" alt="" />
+            <h3 class="product-name">Light Setup</h3>
+            <h4 class="product-price">$1200.00</h4>
+            <div class="product-rating flex">
+              <div class="rating-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="rating-number">4.99</p>
+            </div>
+            <p class="product-details">
+              Worldwide shifting <br> available <br> Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/setup.png" alt="" />
+            <h3 class="product-name">Photoshoot set</h3>
+            <h4 class="product-price">$820.40</h4>
+            <div class="product-rating flex">
+              <div class="rating-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="rating-number">4.99</p>
+            </div>
+            <p class="product-details">
+              Worldwide shifting <br> available <br> Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/camera.png" alt="" />
+            <h3 class="product-name">Vlogging Camera</h3>
+            <h4 class="product-price">$1800.80</h4>
+            <div class="product-rating flex">
+              <div class="rating-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="rating-number">4.99</p>
+            </div>
+            <p class="product-details">
+              Worldwide shifting <br> available <br> Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/single-light.png" alt="" />
+            <h3 class="product-name">Green Screen</h3>
+            <h4 class="product-price">$25.48</h4>
+            <div class="product-rating flex">
+              <div class="rating-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="rating-number">4.99</p>
+            </div>
+            <p class="product-details">
+              Worldwide shifting <br> available <br> Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/action.png" alt="" />
+            <h3 class="product-name">Action Camera</h3>
+            <h4 class="product-price">$380.00</h4>
+            <div class="product-rating flex">
+              <div class="rating-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="rating-number">4.99</p>
+            </div>
+            <p class="product-details">
+              Worldwide shifting <br> available <br> Buyers protection possible!
+            </p>
+          </div>
+          
+        </div>
+       <div class="container-btn">
+        <a href="" class="see-more-btn">See More <i class="fa-solid fa-arrow-right-long"></i> </a>
+       </div>
+      </section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>

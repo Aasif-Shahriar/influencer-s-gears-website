@@ -119,6 +119,84 @@
     margin-bottom: 100px;
 }
 
+/* card section styles */
+.card-section{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.card-section-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--dark-2);
+    margin-bottom: 30px;
+}
+.card-section-title, .product-name{
+    font-family: "Poppins", serif;
+}
+/* only card style */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 30px;
+}
+.card{
+    width: 330px;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.product-name{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 16px;
+    color: var(--dark-1);
+    margin-bottom: 6px;
+}
+.product-price,.rating-number,.product-details{
+    font-family: "Inter",serif;
+}
+.product-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.rating-star > i{
+    font-size: 12px;
+    color: orange;
+}
+.rating-number{
+    font-size: 14px;
+    margin-left: 8px;
+    font-weight: 700;
+    color: var(--dark-3);
+}
+.product-details{
+    width: 195px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark-3);
+    margin-top: 10px;
+    line-height: 24px;
+}
+.container-btn{
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.see-more-btn{
+    color: var(--btn-bg);
+    font-weight: 700;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+.see-more-btn i{
+    margin-left: 5px;
+}
+
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
   .header {
@@ -170,6 +248,17 @@
 }
 .companies-container img{
     height: 15px;
+}
+/* card */
+.card-section-title{
+    font-size: 1.5rem;
+}
+.card-container{
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+}
+.container-btn{
+    margin-right: 20px;
 }
 }
 
@@ -223,5 +312,11 @@
     }
     .companies-container img{
         height: 20px;
+    }
+    .card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .container-btn{
+        margin-right: 30px;
     }
 }
