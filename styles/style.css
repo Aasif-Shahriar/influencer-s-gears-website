@@ -300,8 +300,9 @@
     font-size: 1.75rem;
   }
   .hero-description {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
+    padding: 0 10px;
   }
   /* companies */
   .companies-container {
@@ -338,10 +339,11 @@
   }
   .feature-description {
     width: 400px;
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 15px;
     text-align: center;
     margin-bottom: 16px;
+    padding: 0 10px;
   }
   .feature-btn {
     text-align: center;
